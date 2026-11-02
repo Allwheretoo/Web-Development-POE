@@ -35,7 +35,7 @@ The website consists of five main pages:
 3. Services: Displays the beauty services and price lists.
 4. Gallery: Displays images related to the business.
 5. Contact Us & Bookings: Provides contact information and a booking request form.
-6. Enquiry:
+6. Enquiry: Where customers can send any enquiries they have about the business.
 
 5. Folder Structure
 
@@ -52,8 +52,8 @@ The project contains the following main folders and files:
 * enquiry.html - Enquiries page
 * README.md – Project documentation.
 * CHANGELOG.md – Records project changes.
-* robot.txt -
-* sitemap.xml -
+* robot.txt - Provides instructions to search engine crawlers.
+* sitemap.xml - Lists websites pages to help search engines discover them.
 
 6. How to Run the Website
 
