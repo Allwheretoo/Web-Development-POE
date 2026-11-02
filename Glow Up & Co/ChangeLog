@@ -1,0 +1,65 @@
+Glow Up & Co. – Changelog
+
+This file records the changes and improvements made to the Glow Up & Co. website during development.
+
+Part 3 – Enhancing Functionality and SEO
+
+Changes made
+
+* Reviewed and improved the HTML structure of the website pages.
+* Added SEO page titles and meta descriptions.
+* Checked that each page has a suitable main heading.
+* Added descriptive alt text to website images to improve accessibility and image understanding.
+* Created a JavaScript booking form.
+* Added JavaScript functionality to display a confirmation message after a valid booking request.
+* Added date validation to prevent customers from selecting past booking dates.
+* Created and updated the README.md file to document the project.
+* Added an interactive Google Maps embed to the Contact Us & Bookings page.
+* Implemented a gallery lightbox allowing visitors to enlarge images and close the overlay.
+* Updated the JavaScript file to support both the booking form and gallery lightbox without interfering with each other.
+* Tested the booking form, gallery lightbox, interactive map and mobile responsiveness.
+* Created a separate enquiry page (enquiry.html).
+* Added customer details, service selection, preferred appointment date and enquiry message fields.
+* Implemented JavaScript validation and personalised confirmation messages.
+* Created a separate enquiry page (enquiry.html).
+* Added customer details, service selection, preferred appointment date and enquiry message fields.
+* Implemented JavaScript validation and personalised confirmation messages.
+* Added a general contact form to contact.html.
+* Implemented HTML5 and JavaScript form validation.
+* Added personalised confirmation messages after successful submissions.
+* Styled the general contact form to match the website branding.
+* Integrated Formspree for enquiry form email submissions.
+* Integrated Formspree for general contact form email submissions.
+* Implemented asynchronous form submission using JavaScript Fetch API.
+* Added error handling for unsuccessful submissions and connection problems.
+* Added robots.txt to the project root.
+* Created sitemap.xml containing all six website pages.
+* Added lazy loading and asynchronous decoding to website images.
+* Compressed selected website images.
+* Confirmed that form submissions use HTTPS through Formspree.
+* Tested booking, enquiry and contact form functionality.
+* Added honeypot spam-protection fields to both Formspree forms.
+* Tested enquiry and contact form submissions after the update.
+* Documented off-page SEO strategies, including backlinks and social media promotion.
+* Added a local SEO strategy suitable for the fictional beauty parlour.
+* Included recommendations for future online business listings.
+* Reviewed SEO titles and meta descriptions across all six pages.
+* Checked heading structure and image alternative text.
+* Completed basic SEO and accessibility checks.
+
+Files updated
+
+* index.html
+* about.html
+* services.html
+* gallery.html
+* contact.html
+* enquiry.html
+* JavaScript2.0/script.js
+* README.md
+* robot.txt
+* sitemap.xml
+
+Status
+
+The website is undergoing final testing and preparation for deployment.

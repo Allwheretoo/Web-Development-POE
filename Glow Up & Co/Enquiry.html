@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Service Enquiries | Glow Up & Co.</title>
+
+    <meta name="description" content="Enquire about beauty services, prices and availability at Glow Up & Co.">
+
+    <link rel="stylesheet" href="Css/Style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Glow Up & Co.</h1>
+        <p>Your Glow Starts Here</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="services.html">Services</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact Us & Bookings|</a>
+        <a href="enquiry.html">Enquiries</a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Service Enquiry Form</h2>
+
+            <p>
+                Interested in our beauty services?
+                Complete the form below to enquire about prices
+                and availability.
+            </p>
+
+           <form id="enquiryForm"
+           action="https://formspree.io/f/xljjodbj"
+           method="POST">
+           
+           <input type="text" name="_gotcha" style="display:none">
+           
+    <label for="enquiryName">Full Name:</label>
+    <input type="text" id="enquiryName" name="name"
+           minlength="2" maxlength="50" required>
+
+    <label for="enquiryEmail">Email Address:</label>
+    <input type="email" id="enquiryEmail" name="email" required>
+
+    <label for="enquiryPhone">Phone Number:</label>
+    <input type="tel" id="enquiryPhone" name="phone"
+           pattern="[0-9+\s()-]{10,15}"
+           title="Enter a valid phone number (10–15 characters)."
+           required>
+
+    <label for="enquiryService">Select a Service:</label>
+    <select id="enquiryService" name="service" required>
+        <option value="">-- Choose a Service --</option>
+        <option value="Hair Styling">Hair Styling</option>
+        <option value="Nail Services">Nail Services</option>
+        <option value="Lash Extensions">Lash Extensions</option>
+    </select>
+
+    <label for="enquiryDate">Preferred Appointment Date:</label>
+    <input type="date" id="enquiryDate" name="date" required>
+
+    <label for="enquiryMessage">Your Enquiry:</label>
+    <textarea id="enquiryMessage" name="message"
+              minlength="10" maxlength="500"
+              placeholder="Ask us about prices, availability or our services..."
+              required></textarea>
+
+    <button type="submit">Submit Enquiry</button>
+
+</form>
+
+<p id="enquiryResponse" style="color: black; font-weight: bold;"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Glow Up & Co. All rights reserved.</p>
+    </footer>
+
+    <script src="JavaScript2.0/script.js"></script>
+
+</body>
+</html>

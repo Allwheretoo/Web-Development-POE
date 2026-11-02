@@ -1,0 +1,554 @@
+/*General page syling*/
+body {
+    background-color: rgb(247, 247, 227);
+    font-family: Arial, sans-serif;
+    margin:0;
+    padding: 0;
+    color: #333;
+}
+
+/* Header */
+header {
+    text-align:center;
+    padding: 20px;
+}
+
+header img {
+   width: 250px;
+   height: 150px;
+   border-radius: 15px;
+}
+
+header h1 {
+    margin: 10px 0 5px;
+    font-size: 32px;
+}
+
+header p {
+    font-style: italic;
+    font-size: 18px;
+}
+
+/* Navigation */
+nav {
+    text-align: center;
+    padding: 15px;
+    background-color: #e8cfcf;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+    font-weight:bold;
+    padding: 8px;
+    transition: 0.3s ease;
+}
+
+nav a:hover {
+    color: #d89aaa;
+    text-decoration: underline;
+}
+
+/*Main Content*/
+main {
+    max-width: 1100px;
+    margin: auto;
+    padding: 30px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+/* Headings */
+h2 {
+    text-align: center;
+    color: #d89aaa;
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 25px;
+    background-color: #e8cfcf;
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+footer p {
+    margin: 8px 0 0;
+    font-size: 14px;
+}
+
+/*Welcome section */
+.welcome {
+    background-color: #e8cfcf;
+    text-align: center;
+    padding: 40px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+.welcome h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.welcome p {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+/* Price list*/
+.price-list {
+    background-color: rgb(241, 241, 236);
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.price-list h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.price-list h3 {
+    background-color: #d89aaa;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 22px;
+    margin-top: 25px;
+    transition: 0.3s ease;
+}
+
+.price-list h3:hover {
+    transform: scale(1.02);
+}
+
+.price-list p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Home page image*/
+.home-image {
+    display: block;
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    margin: 30px auto 0;
+    border-radius: 15px;
+}
+
+.home-image:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+}
+
+/* Services page*/
+.service-title {
+    background-color: #d89aaa;
+    padding: 12px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.service-image {
+    display: block;
+    width: 300px;
+    max-width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin: 15px auto;
+    border-radius: 15px;
+}
+
+main section p {
+    line-height: 1.6;
+}
+
+/* Service card*/
+.service-card {
+    background-color: #e8cfcf;
+    padding: 25px;
+    margin: 25px 0;
+    border-radius: 15px;
+    text-align: center;
+    border: 1px solid #d89aaa;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+}
+
+/* Gallery headings */
+.gallery-title {
+    background-color: #d89aaa;
+    padding: 12px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 22px;
+}
+
+/* Gallery images */
+.gallery-image {
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive Gallery*/
+@media (max-width: 768px) {
+    .gallery-image {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        margin: 10px auto;
+        display: block;
+    }
+}
+@media (max-width: 768px) {
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+/* Booking Form */
+.booking-form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 25px;
+    background-color: #e8cfcf;
+    border-radius: 15px;
+}
+
+.booking-form label {
+    font-weight: bold;
+}
+
+.booking-form input,
+.booking-form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #c7c7c7;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.booking-form input[type="submit"] {
+    background-color: #d89aaa;
+    color: whitesmoke;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 12px 20px;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+
+.booking-form input[type="submit"]:hover {
+    background-color: #c77f91;
+    transform: translateY(-2px);
+}
+
+/* Contact Section */
+.contact-section {
+    background-color: #e8cfcf;
+    padding: 25px;
+    margin: 25px auto;
+    border-radius: 15px;
+    max-width: 700px;
+    text-align: center;
+}
+
+.contact-section p {
+    line-height: 1.6;
+}
+
+.contact-section a {
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.contact-section a:hover {
+    text-decoration: underline;
+}
+
+.contact-section p {
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+.social-button {
+    display: inline-block;
+    background-color: #d89aaa;
+    color: whitesmoke !important;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none !important;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.social-button:hover {
+    background-color: #c77f91;
+    transform: translateY(-3px);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    main {
+        padding: 15px;
+    }
+
+    .service-card {
+        font-size: 20px;
+    }
+
+    .service-image {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+    }
+}
+
+/* Text styling */
+h1 {
+    color: #d89aaa;
+}
+
+h2 {
+    color: #d89aaa;
+}
+
+h3 {
+    color: #333;
+}
+
+main p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Responsive header */
+@media (max-width: 768px) {
+    header {
+        padding: 15px;
+    }
+
+    header img {
+        width: 180px;
+        height: auto;
+    }
+
+    header h1 {
+        font-size: 26px;
+    }
+
+    header p {
+        font-size: 16px;
+    }
+}
+
+/* About Us Section */
+.about-section {
+    background-color: #e8cfcf;
+    padding: 30px;
+    margin: 25px auto;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.about-section p {
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+/*Customer Reviews */
+.review {
+    background-color: #f1d9f1;
+    padding: 15px;
+    margin: 15px auto;
+    border-radius: 10px;
+    max-width: 600px;
+}
+
+.review p {
+    margin: 5px;
+}
+
+/* Gallery Layout */
+.gallery {
+    text-align: center;
+    margin-bottom: 30px;
+
+    /* Gallery Lightbox */
+
+.lightbox {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    justify-content: center;
+    align-items: center;
+}
+
+.lightbox img {
+    max-width: 90%;
+    max-height: 85%;
+    border-radius: 15px;
+}
+
+.close-lightbox {
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.gallery-image {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.gallery-image:hover {
+    transform: scale(1.05);
+}
+}
+
+/* Enquiry Form Styling */
+
+#enquiryForm {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: #f8e1e7;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#enquiryForm label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#enquiryForm input,
+#enquiryForm select,
+#enquiryForm textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d89aaa;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-family: inherit;
+}
+
+#enquiryForm textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+#enquiryForm button {
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: #d89aaa;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#enquiryForm button:hover {
+    background-color: #c77f92;
+}
+
+#enquiryResponse {
+    text-align: center;
+    margin: 20px auto;
+    font-weight: bold;
+}
+
+/* General Contact Form Styling */
+
+#contactMessageForm {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: #f8e1e7;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#contactMessageForm label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#contactMessageForm input,
+#contactMessageForm select,
+#contactMessageForm textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d89aaa;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-family: inherit;
+}
+
+#contactMessageForm textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+#contactMessageForm button {
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: #d89aaa;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#contactMessageForm button:hover {
+    background-color: #c77f92;
+}
+
+#contactResponse {
+    text-align: center;
+    margin: 20px auto;
+    font-weight: bold;
+}
